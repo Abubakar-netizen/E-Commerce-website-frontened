@@ -1,0 +1,98 @@
+*{
+	margin: -20;
+	padding: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+body
+{
+	background-color: solid white;
+}
+h1
+{
+	text-align: center;
+	color: black;
+	padding: 20px;
+
+}
+
+nav
+{
+	background-color: pink;
+	display: grid;
+	place-items: left;
+}
+nav ul
+{
+	list-style-type: none;
+	
+}
+nav ul a
+{
+	display: inline-block;
+	padding: 20px;
+	text-decoration: none;
+	color: black;
+	transition: 0.2s ease-in:
+	font-size: 0px;
+}
+nav ul a:hover
+{
+	background-color: pink;
+	color: white;
+}
+	nav .search
+{
+	float: right;
+	margin-top: 10px;
+	margin-right: 100px;
+	width: 20%;
+	height: 35px;
+	border-radius: 5px;
+	border: none;
+	text-indent: 5px;
+	
+}
+.items
+{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	padding: 30px 20px;
+	grid-column-gap: 20px;
+	grid-row-gap: 30px;
+}
+.items img
+{
+	width: 100%;
+	height: 400px;
+	object-fit: cover;
+	cursor: pointer;
+	transition: 15s ease;
+}
+.item img:hover
+{
+	transform: scale(1.04);
+}
+.item h4
+{
+	padding: 5px;
+	text-align: center; 
+}
+.item button
+{
+	padding: 5px 30px;
+	border: none;
+	outline: none;
+	background-color: pink;
+	color: white;
+	
+	border-radius: 4px;
+	font-size: 20px;
+	display: block;
+	margin: 0 auto;
+	transition: 0.2s all;
+}
+.item button:hover
+{
+	transform: scale(1.08);
+}
